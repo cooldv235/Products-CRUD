@@ -1,0 +1,1 @@
+CREATE TABLE `products_crud`.`products` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `title` VARCHAR(512) NOT NULL , `description` LONGTEXT NULL , `image` VARCHAR(2048) NULL , `price` DECIMAL(10,2) NOT NULL , `create_date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
